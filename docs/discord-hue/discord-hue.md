@@ -13,6 +13,10 @@ Hue for Discord is a Discord.js bot that can control your lights from a Discord 
  * `node-hue-api`
  
 ___
+
+{:toc}
+
+___
  
 ## Configuration - Hue
 Firstly, you're going to need to IP Address of you Hue Bridge. This can be done multiple ways, but we'll use the `node-hue-api` JS package here. Create a new JavaScript file in your Node.js project folder and use the following code:
