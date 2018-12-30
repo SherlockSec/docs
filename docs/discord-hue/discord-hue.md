@@ -2,7 +2,6 @@
 layout: default
 title: Hue for Discord
 nav_order: 2
-has_children: true
 permalink: /docs/discord-hue
 published: true
 ---
