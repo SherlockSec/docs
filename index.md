@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dan's Docs
+title: Home
 nav_order: 0
 ---
 
