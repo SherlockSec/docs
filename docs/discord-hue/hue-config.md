@@ -3,6 +3,7 @@ layout: default
 title: Configuration - Hue
 parent: Hue for Discord
 ---
+# Configuration - Hue
 Firstly, you're going to need to IP Address of you Hue Bridge. This can be done multiple ways, but we'll use the `node-hue-api` JS package here. Create a new JavaScript file in your Node.js project folder and use the following code:
 
 ```js
