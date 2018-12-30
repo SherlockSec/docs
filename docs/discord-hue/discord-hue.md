@@ -14,8 +14,7 @@ Hue for Discord is a Discord.js bot that can control your lights from a Discord 
  * `node-hue-api`
  
 [![github-logo](https://github.com/favicon.ico) __View On GitHub__](https://github.com/SherlockSec/HueForDiscord)
- 
-___
+
 
 
 ## Table of contents
