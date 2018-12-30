@@ -6,9 +6,8 @@ has_children: true
 permalink: /docs/discord-hue
 published: true
 ---
-
-## Hue for Discord is a Discord.js bot that can control your lights from a Discord server.
-The Hue bot is written in Node.js using two main packages:
+# Hue for Discord
+Hue for Discord is a Discord.js bot that can control your lights from a Discord server. The Hue bot is written in Node.js using two main packages:
 
  * `discord.js`
  * `node-hue-api`
