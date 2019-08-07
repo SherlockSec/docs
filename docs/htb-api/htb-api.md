@@ -73,11 +73,11 @@ Response:
                     "x": "22:02:33 06 Aug",
                     "y": 1768
                 },
-                <Repeated Data Omitted>
+                <!--Repeated Data Omitted-->
             ],
             "color": "9acc14"
         },
-        <Repeated Data Omitted>
+        <!--Repeated Data Omitted-->
     ]
 }
 ```
