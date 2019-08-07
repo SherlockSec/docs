@@ -39,7 +39,7 @@ URL:
 
 | URL               | https://www.hackthebox.eu/api/stats/global |
 |-------------------|--------------------------------------------|
-| Requires API Key? | []                                         |
+| Requires API Key? | ☑                                         |
 | Request Type      | POST                                       |  
 
 Response:
