@@ -35,7 +35,7 @@ To use the API Key, either:
 
 ___
 
-Next, you'll need a way to make the API requests. MOst, if not all programming languages have a capacity to make HTTP Requests, but when testing a query it's nice to have a standalone tool. Therefore, I recommend the following tools (based on my experience):  
+Next, you'll need a way to make the API requests. Most, if not all programming languages have a capacity to make HTTP Requests, but when testing a query it's nice to have a standalone tool. Therefore, I recommend the following tools (based on my experience):  
 * Postman (Windows)
 * curl/wget (*nix)
 
