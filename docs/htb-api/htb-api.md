@@ -37,8 +37,8 @@ Next, you'll need a way to make the API requests. MOst, if not all programming l
 URL:  
 `https://www.hackthebox.eu/api/stats/global`  
 
-| URL               | https://www.hackthebox.eu/api/stats/global |
 |-------------------|--------------------------------------------|
+| URL               | https://www.hackthebox.eu/api/stats/global |
 | Requires API Key? | ☑                                         |
 | Request Type      | POST                                       |  
 
