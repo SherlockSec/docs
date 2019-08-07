@@ -103,10 +103,9 @@ ___
 ### Parameters
 {: .no_toc }
 
-|-----------|-----------------------------|
-| Parameter | `username`                  |
-| Value     | HTB Username for given user |
-| Example   | `SherlockSec`               |
+| Parameter  | Example Value               | Description                 |
+|------------|-----------------------------|-----------------------------|
+| `username` | `SherlockSec`               | HTB Username for given user |
 
 Response:
 ```json
