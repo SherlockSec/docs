@@ -11,6 +11,8 @@ published: true
 
 Unofficial documentation for the HackTheBox API. Feel free to PR and add to this on [GitHub](https://github.com/SherlockSec/docs).
 
+___
+
 ## Table of Contents
 {: .no_toc .text-delta }
 
@@ -117,3 +119,37 @@ Response:
 
 ___
 
+## Machines List  
+  
+|-------------------|---------------------------------------------------|  
+| URL               | https://www.hackthebox.eu/api/machines/get/all    |  
+| Requires API Key? | No                                                |  
+| Request Type      | GET                                               |  
+| Extra Parameters? | No                                                |  
+
+Response:
+```json
+[
+    {
+        "id":1,"name":"Lame",
+        "os":"Linux",
+        "ip":"10.10.10.3",
+        "avatar_thumb":"https:\/\/www.hackthebox.eu\/storage\/avatars\/fb2d9f98400e3c802a0d7145e125c4ff_thumb.png",
+        "points":20,"release":"2017-03-14",
+        "retired_date":"2017-05-26",
+        "maker":{
+            "id":1,"name":"ch4p"
+        },
+        "maker2":null,
+        "ratings_pro":2261,
+        "ratings_sucks":216,
+        "user_owns":7459,
+        "root_owns":7792,
+        "retired":true,
+        "free":false
+    }
+    <!--Repeated Data Omitted-->
+]
+```
+
+___
