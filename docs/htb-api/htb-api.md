@@ -34,8 +34,8 @@ Next, you'll need a way to make the API requests. MOst, if not all programming l
 
 ___
 
-## Endpoints
-### Global Stats
+# Endpoints
+## Global Stats
   
 
 |-------------------|--------------------------------------------|
