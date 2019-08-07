@@ -22,13 +22,16 @@ ___
 ___
 
 ## Introduction
-First things first, for most of the API queries, you need an **API Key**. To find your API Key, navigate to the `https://www.hackthebox.eu/home/settings`, as seen below.  
+First things first, for most of the API queries, you need an **API Key**. To find your API Key, navigate to `https://www.hackthebox.eu/home/settings`, where you will find your personal API Key, as seen below.  
 
 ![api_key](https://raw.ratelimited.me/H0j2bwgj0rBr.png)  
 
-To use the API Key, add it a URL parameter like so:
+To use the API Key, either:  
+1. Add it a URL parameter like so:
 
 ```https://example.com/api/endpoint?api_token=<API KEY GOES HERE>```
+
+2. Add it in a `x-www-form-encoded` parameter.
 
 Next, you'll need a way to make the API requests. MOst, if not all programming languages have a capacity to make HTTP Requests, but when testing a query it's nice to have a standalone tool. Therefore, I recommend the following tools (based on my experience):  
 * Postman (Windows)
@@ -150,7 +153,7 @@ Response:
         "root_owns":7792,
         "retired":true,
         "free":false
-    }
+    },
     <!--Repeated Data Omitted-->
 ]
 ```
