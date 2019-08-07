@@ -36,9 +36,10 @@ ___
 
 # Endpoints
 
-## Global Stats  
+___
 
-| Parameter         | Value                                      |  
+## Global Stats  
+  
 | ----------------- | ------------------------------------------ |  
 | URL               | https://www.hackthebox.eu/api/stats/global |  
 | Requires API Key? | No                                         |  
@@ -57,12 +58,13 @@ Response:
 }
 ```
 
-## Hall Of Fame  
+___
 
-| Parameter         | Value                                             |  
+## Hall Of Fame  
+  
 |-------------------|---------------------------------------------------|  
 | URL               | https://www.hackthebox.eu/api/charts/users/scores |  
-| Requires API Key? | - [x]                                             |  
+| Requires API Key? | Yes                                               |  
 | Request Type      | GET                                               |  
 
 Response:
@@ -85,3 +87,6 @@ Response:
     ]
 }
 ```
+
+___
+
