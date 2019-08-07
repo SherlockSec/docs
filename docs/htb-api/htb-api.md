@@ -134,7 +134,7 @@ Response:
         "id":1,"name":"Lame",
         "os":"Linux",
         "ip":"10.10.10.3",
-        "avatar_thumb":"https:\/\/www.hackthebox.eu\/storage\/avatars\/fb2d9f98400e3c802a0d7145e125c4ff_thumb.png",
+        "avatar_thumb":"https://www.hackthebox.eu/storage/avatars/fb2d9f98400e3c802a0d7145e_thumb.png",
         "points":20,"release":"2017-03-14",
         "retired_date":"2017-05-26",
         "maker":{
