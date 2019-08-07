@@ -44,6 +44,7 @@ ___
 | URL               | https://www.hackthebox.eu/api/stats/global |  
 | Requires API Key? | No                                         |  
 | Request Type      | POST                                       |  
+| Extra Parameters? | No                                         |  
 
 Response:
 ```json
@@ -66,6 +67,7 @@ ___
 | URL               | https://www.hackthebox.eu/api/charts/users/scores |  
 | Requires API Key? | Yes                                               |  
 | Request Type      | GET                                               |  
+| Extra Parameters? | No                                                |  
 
 Response:
 ```json
@@ -85,6 +87,30 @@ Response:
         },
         <!--Repeated Data Omitted-->
     ]
+}
+```
+
+___
+
+## Get User ID  
+  
+|-------------------|---------------------------------------|  
+| URL               | https://www.hackthebox.eu/api/user/id |  
+| Requires API Key? | Yes                                   |  
+| Request Type      | POST                                  |  
+| Extra Parameters? | Yes                                   |  
+
+
+
+| Parameter  | Value                       | Example       |
+|------------|-----------------------------|---------------|
+| `username` | HTB Username for given user | `SherlockSec` |
+
+Response:
+```json
+{
+    "username": "SherlockSec",
+    "id": 50344
 }
 ```
 
