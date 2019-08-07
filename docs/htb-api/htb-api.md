@@ -102,9 +102,10 @@ ___
 
 
 
-| Parameter  | Value                       | Example       |
-|------------|-----------------------------|---------------|
-| `username` | HTB Username for given user | `SherlockSec` |
+|-----------|-----------------------------|
+| Parameter | `username`                  |
+| Value     | HTB Username for given user |
+| Example   | `SherlockSec`               |
 
 Response:
 ```json
