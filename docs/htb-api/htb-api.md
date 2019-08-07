@@ -100,7 +100,8 @@ ___
 | Request Type      | POST                                  |  
 | Extra Parameters? | Yes                                   |  
 
-
+### Parameters
+{: .no_toc }
 
 |-----------|-----------------------------|
 | Parameter | `username`                  |
