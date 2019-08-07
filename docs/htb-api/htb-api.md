@@ -35,12 +35,11 @@ Next, you'll need a way to make the API requests. MOst, if not all programming l
 ___
 
 # Endpoints
+___
 ## Global Stats
-  
-
 |-------------------|--------------------------------------------|
 | URL               | https://www.hackthebox.eu/api/stats/global |
-| Requires API Key? | ☑                                         |
+| Requires API Key? | [ ]                                        |
 | Request Type      | POST                                       |  
 
 Response:
@@ -53,5 +52,32 @@ Response:
         "machines": 123,
         "latency": "1.05"
     }
+}
+```
+___
+## Hall Of Fame
+|-------------------|---------------------------------------------------|
+| URL               | https://www.hackthebox.eu/api/charts/users/scores |
+| Requires API Key? | [x]                                               |
+| Request Type      | GET                                               |  
+
+Response:
+```json
+{
+    "status": 1,
+    "chartData": [
+        {
+            "name": "snowscan",
+            "timeline": [
+                {
+                    "x": "22:02:33 06 Aug",
+                    "y": 1768
+                },
+                <Repeated Data Omitted>
+            ],
+            "color": "9acc14"
+        },
+        <Repeated Data Omitted>
+    ]
 }
 ```
