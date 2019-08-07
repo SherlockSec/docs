@@ -1,5 +1,7 @@
 remote_theme: pmarsceill/just-the-docs
 title: "Dan's Docs"
+color_scheme: "dark"
+search_enabled: true
 aux_links:
     "Dan on Twitter":
       - "//twitter.com/@SherlockSec"
