@@ -35,12 +35,13 @@ Next, you'll need a way to make the API requests. MOst, if not all programming l
 ___
 
 # Endpoints
-___
+
 ## Global Stats
 |-------------------|--------------------------------------------|
 | URL               | https://www.hackthebox.eu/api/stats/global |
 | Requires API Key? | No                                         |
 | Request Type      | POST                                       |  
+|-------------------|--------------------------------------------|
 
 Response:
 ```json
@@ -54,12 +55,13 @@ Response:
     }
 }
 ```
-___
+
 ## Hall Of Fame
 |-------------------|---------------------------------------------------|
 | URL               | https://www.hackthebox.eu/api/charts/users/scores |
 | Requires API Key? | Yes                                               |
 | Request Type      | GET                                               |  
+|-------------------|---------------------------------------------------|
 
 Response:
 ```json
