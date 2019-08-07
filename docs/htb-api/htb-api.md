@@ -36,12 +36,12 @@ ___
 
 # Endpoints
 
-## Global Stats
+## Global Stats  
+| Parameter         | Value                                      |
 |-------------------|--------------------------------------------|
 | URL               | https://www.hackthebox.eu/api/stats/global |
 | Requires API Key? | No                                         |
 | Request Type      | POST                                       |  
-|-------------------|--------------------------------------------|
 
 Response:
 ```json
@@ -56,12 +56,12 @@ Response:
 }
 ```
 
-## Hall Of Fame
+## Hall Of Fame  
+| Parameter         | Value                                             |
 |-------------------|---------------------------------------------------|
 | URL               | https://www.hackthebox.eu/api/charts/users/scores |
-| Requires API Key? | Yes                                               |
+| Requires API Key? | - [x]                                             |
 | Request Type      | GET                                               |  
-|-------------------|---------------------------------------------------|
 
 Response:
 ```json
