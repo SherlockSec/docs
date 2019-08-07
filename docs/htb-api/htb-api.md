@@ -39,7 +39,7 @@ ___
 ## Global Stats
 |-------------------|--------------------------------------------|
 | URL               | https://www.hackthebox.eu/api/stats/global |
-| Requires API Key? | [ ]                                        |
+| Requires API Key? | No                                         |
 | Request Type      | POST                                       |  
 
 Response:
@@ -58,7 +58,7 @@ ___
 ## Hall Of Fame
 |-------------------|---------------------------------------------------|
 | URL               | https://www.hackthebox.eu/api/charts/users/scores |
-| Requires API Key? | [x]                                               |
+| Requires API Key? | Yes                                               |
 | Request Type      | GET                                               |  
 
 Response:
