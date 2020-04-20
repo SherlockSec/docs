@@ -65,7 +65,44 @@ Response:
     }
 }
 ```
+___
 
+## Daily Stats
+
+| ----------------- | ----------------------------------------------------- |  
+| URL               | https://www.hackthebox.eu/api/stats/daily/owns/<days> |  
+| Requires API Key? | No                                                    |  
+| Request Type      | POST                                                  |  
+| Extra Parameters? | Yes (URL)                                             |  
+
+### URL Paramters
+{: .no_toc }
+
+| Parameter  | Example Value               | Description                                                             |
+|------------|-----------------------------|-------------------------------------------------------------------------|
+| `days`     | `30`                        | Amount of days to get data for. Set to negative number to retrieve all. |
+
+Response:
+```json
+{
+    "success": "1",
+    "userowns": [
+        1000,
+        1001,
+        <!--Repeated Data Omitted-->
+    ],
+    "rootowns": [
+        1000,
+        1001,
+        <!--Repeated Data Omitted-->
+    ],
+    "users": [
+        1000,
+        1001,
+        <!--Repeated Data Omitted-->
+    ]
+}
+```
 ___
 
 ## Hall Of Fame  
@@ -105,9 +142,9 @@ ___
 | URL               | https://www.hackthebox.eu/api/user/id |  
 | Requires API Key? | Yes                                   |  
 | Request Type      | POST                                  |  
-| Extra Parameters? | Yes                                   |  
+| Extra Parameters? | Yes (JSON)                            |  
 
-### Parameters
+### JSON Parameters
 {: .no_toc }
 
 | Parameter  | Example Value               | Description                 |
