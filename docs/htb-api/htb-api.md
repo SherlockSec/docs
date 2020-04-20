@@ -134,6 +134,31 @@ Response:
 ```
 ___
 
+## Switch Labs
+
+|-------------------|-------------------------------------------------|  
+| URL               | https://www.hackthebox.eu/api/labs/switch/<lab> |  
+| Requires API Key? | Yes                                             |  
+| Request Type      | POST                                            |  
+| Extra Parameters? | Yes (URL)                                       |  
+
+### URL Parameters
+{: .no_toc }
+
+| Parameter  | Example Value               | Description                 |
+|------------|-----------------------------|-----------------------------|
+| `lab`      | `eufree`                    | The lab to switch to        |
+
+Response:
+```json
+{
+    "status": 1,
+    "server": "eufree"
+}
+```
+
+___
+
 ## Hall Of Fame  
   
 |-------------------|---------------------------------------------------|  
