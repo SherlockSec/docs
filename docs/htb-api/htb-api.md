@@ -65,6 +65,97 @@ Response:
     }
 }
 ```
+___
+
+## Daily Stats
+
+| ----------------- | ----------------------------------------------------- |  
+| URL               | https://www.hackthebox.eu/api/stats/daily/owns/<days> |  
+| Requires API Key? | No                                                    |  
+| Request Type      | POST                                                  |  
+| Extra Parameters? | Yes (URL)                                             |  
+
+### URL Paramters
+{: .no_toc }
+
+| Parameter  | Example Value               | Description                                                             |
+|------------|-----------------------------|-------------------------------------------------------------------------|
+| `days`     | `30`                        | Amount of days to get data for. Set to negative number to retrieve all. |
+
+Response:
+```json
+{
+    "success": "1",
+    "userowns": [
+        1000,
+        1001,
+        <!--Repeated Data Omitted-->
+    ],
+    "rootowns": [
+        1000,
+        1001,
+        <!--Repeated Data Omitted-->
+    ],
+    "users": [
+        1000,
+        1001,
+        <!--Repeated Data Omitted-->
+    ]
+}
+```
+___
+
+## Global Stats  
+  
+| ----------------- | -------------------------------------------------- |  
+| URL               | https://www.hackthebox.eu/api/vpnserver/status/all |  
+| Requires API Key? | Yes                                                |  
+| Request Type      | GET                                                |  
+| Extra Parameters? | No                                                 |  
+
+Response:
+```json
+{
+    "success": "1",
+    "servers": [
+        {
+            "id": 1,
+            "current": 123,
+            "latency": 1.23
+         },
+         {
+            "id": 2,
+            "current": 123,
+            "latency": 1.23
+         },
+         <!--Repeated Data Omitted-->
+    ]
+}
+```
+___
+
+## Switch Labs
+
+|-------------------|-------------------------------------------------|  
+| URL               | https://www.hackthebox.eu/api/labs/switch/<lab> |  
+| Requires API Key? | Yes                                             |  
+| Request Type      | POST                                            |  
+| Extra Parameters? | Yes (URL)                                       |  
+
+### URL Parameters
+{: .no_toc }
+
+| Parameter  | Example Value               | Description                 |
+|------------|-----------------------------|-----------------------------|
+| `lab`      | `eufree`                    | The lab to switch to        |
+
+Response:
+```json
+{
+    "status": 1,
+    "server": "eufree"
+}
+```
 
 ___
 
@@ -105,9 +196,9 @@ ___
 | URL               | https://www.hackthebox.eu/api/user/id |  
 | Requires API Key? | Yes                                   |  
 | Request Type      | POST                                  |  
-| Extra Parameters? | Yes                                   |  
+| Extra Parameters? | Yes (JSON)                            |  
 
-### Parameters
+### JSON Parameters
 {: .no_toc }
 
 | Parameter  | Example Value               | Description                 |
@@ -124,11 +215,58 @@ Response:
 
 ___
 
-## Machines List  
+## Starting Point Machines List  
+  
+|-------------------|------------------------------------------------------|  
+| URL               | https://www.hackthebox.eu/api/startingpoint/machines |  
+| Requires API Key? | Yes                                                  |  
+| Request Type      | GET                                                  |  
+| Extra Parameters? | No                                                   |  
+
+Response:
+```json
+[
+    {
+        "id": 1,
+        "name": "MachineName",
+        "os": "Linux",
+        "ip": "10.10.10.1",
+        "vip": 0,
+        "order": 1
+    },
+    <!--Repeated Data Omitted-->
+]
+```
+
+___
+
+## Starting Point Owns
+  
+|-------------------|--------------------------------------------------|  
+| URL               | https://www.hackthebox.eu/api/startingpoint/owns |  
+| Requires API Key? | Yes                                              |  
+| Request Type      | GET                                              |  
+| Extra Parameters? | No                                               |  
+
+Response:
+```json
+[
+    {
+        "id": 1,
+        "owned_user": true,
+        "owned_root": true
+    },
+    <!--Repeated Data Omitted-->
+]
+```
+
+___
+
+## All Machines List  
   
 |-------------------|---------------------------------------------------|  
 | URL               | https://www.hackthebox.eu/api/machines/get/all    |  
-| Requires API Key? | No                                                |  
+| Requires API Key? | Yes                                               |  
 | Request Type      | GET                                               |  
 | Extra Parameters? | No                                                |  
 
